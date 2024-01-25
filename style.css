@@ -169,6 +169,7 @@ p, span, a{
 }
 .Certifications .card-img-top{
     object-fit: contain;
+    /* object-fit:inherit; */
 }
 .Certifications .card:hover{
     border: 1px solid #de0f66;
