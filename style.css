@@ -1,8 +1,9 @@
 body{
     font-family: 'Rubik', sans-serif;
-    background-color: #fdfdfd;
+    /* background-color: #f0efef; */
     scroll-behavior: smooth;
     font-size: 1rem;
+    /* background-color: rgb(252, 243, 249); */
 }
 p,h1,h2,h3,h4,h5,h6,a,span{
     font-family: 'Rubik', sans-serif;
@@ -72,6 +73,9 @@ p, span, a{
 }
 .hero-head{
     font-size: 2.5rem;
+}
+.Home h3{
+    font-size: 1rem;
 }
 .typewrite span{
     font-size: 1.75rem;
@@ -167,6 +171,9 @@ p, span, a{
     text-decoration: none;
     background-image: '/img';
 }
+.Certifications .card{
+    margin-bottom: 60px;
+}
 .Certifications .card-img-top{
     object-fit: contain;
     /* object-fit:inherit; */
@@ -177,6 +184,9 @@ p, span, a{
 .Certifications .card:hover .card-title{
 color: #de0f66;
 cursor: pointer;
+}
+.Certifications .card-body{
+    border-radius: 55px;
 }
 .Projects .card-img-top{
     height: 250px;
@@ -346,7 +356,7 @@ footer{
         margin-bottom: 15px !important;
     }
     .hero-sub-text{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .btn-primary, .btn-secondary{
         padding: 10px 15px;
