@@ -34,7 +34,7 @@
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #0FDE87;
+  background: #85a0ff;
   animation: animate 2s  cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{

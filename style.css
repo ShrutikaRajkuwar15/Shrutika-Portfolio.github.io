@@ -15,20 +15,22 @@ p, span, a{
     font-size: 16px;
 }
 .bg-primary{
-    background-color: #de0f66 !important;
+    background-color: #1a0cff !important;
 }
 .text-primary{
-    color: #de0f66 !important;
+    /* color: #de0f66 !important; */
+    /* color:#c5d6f8 !important; */
     text-align: center;
     justify-content: center;
     align-items: center;
     text-decoration: underline;
     font-weight: 600;
     letter-spacing: 2px;
+    color: #14109f !important;
 }
 .btn-primary{
-    background-color: #de0f66 !important;
-    border: 1px solid #de0f66 !important;
+    background-color: #2f37ff !important;
+    border: 1px solid #85a0ff!important;
     padding: 10px 25px;
     min-width: 150px;
     font-size: 1.2rem;
@@ -36,25 +38,37 @@ p, span, a{
 }
 .btn-primary:hover{
     background-color: transparent !important;
-    border: 1px solid #de0f66 !important;
-    color: #de0f66;
+    border: 1px solid #fff !important;
+    color: #fff;
 }
 .btn-secondary{
     padding: 10px 25px;
     background-color: transparent;
-    border: 1px solid #de0f66 !important;
-    color: #de0f66;
+    border: 1px solid #fff !important;
+    color: #fff;
     min-width: 150px;
     font-size: 1.2rem;
     font-weight: 500;
 
 }
 .btn-secondary:hover{
-    background-color: #de0f66 !important;
-    border: 1px solid #de0f66 !important;
+    background-color: #2f37ff !important;
+    border: 1px solid #85a0ff !important;
     color: #fff;
 }
-
+.contact-btn{
+    background-color: #2f37ff !important;
+    border: 1px solid #85a0ff!important;
+    padding: 10px 25px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.contact-btn:hover{
+    background-color: #fff !important;
+    border: 1px solid #1100fa !important;
+    color: #2f37ff !important;
+}
 .img-circle{
     border-radius: 50%;   
 }
@@ -71,14 +85,15 @@ p, span, a{
         color:rgb(62, 61, 61);
 }
 .navbar-light .navbar-nav .active>.nav-link{
-    color: #de0f66;
+    color: #1a0cff;
 }
 .navbar .nav-link{
     font-size: 18px;
     font-weight: 500;
 }
  .navbar-nav .nav-link:hover,  .navbar-nav .nav-link.active{
-    color: #de0f66 !important;
+    /* color: #de0f66 !important; */
+    color: #1a0cff !important;
 }
 .navbar-toggler:focus{
     outline: none !important;
@@ -92,6 +107,7 @@ p, span, a{
     font-size: 2.1rem;
     line-height: 1.5;
     letter-spacing: 3px;
+    color: #566aff;
 }
 #Home .head-btn a{
     margin-right: 30px;
@@ -100,7 +116,63 @@ h1 {
     font-family: Arial, sans-serif;
     font-size: 2em;
   }
+  
+  .typing {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black; /* Cursor effect */
+    animation: typing 2s steps(10, end), blink 0.6s step-end infinite;
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 4ch; /* Adjust based on the number of characters */
+    }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink {
+    from {
+      border-right-color: black;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
  
+.animation{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14)  infinite alternate, blink 800ms steps(14)  infinite normal;
+    border-right: 5px solid black;
+}
+@keyframes typing{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+        
+    @keyframes blink {
+        from {
+            border-color: black;
+        }
+
+        to {
+            border-color: transparent;
+        }
+    }
 
 #Home h3{
     font-size: 1rem;
@@ -110,8 +182,10 @@ h1 {
 }
 #Home{
     position: relative;
+    /* background-color: #f9deee !important; */
     padding-bottom: 100px;
     background-image: url(./img/dark-geometric-background-with-copy-space.jpg);
+    /* background-size: cover; */
     
 }
 .typewrite span{
@@ -130,6 +204,7 @@ h1 {
 .About p{
     margin: auto;
     text-align: left;
+    /* width: 80%; */
     line-height: 30px;
     letter-spacing: 1px;
 }
@@ -147,7 +222,8 @@ h1 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: #de0f66 !important;
+    /* background-color: #de0f66 !important; */
+    background-color: #1106cd !important;
     position: relative;
     color: #fff;
 }
@@ -166,7 +242,7 @@ h1 {
     content: '';
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #de0f66;
+    border-top: 6px solid #1106cd;
     position: absolute;
     bottom: -6px;
     left: 50%;
@@ -178,7 +254,9 @@ h1 {
     font-weight: normal;
 }
 .badge-primary{
-    background-color: #de0f66 !important;
+    /* background-color: #de0f66 !important; */
+    background-color: #1a0cff !important;
+
 }
 .card-title{
  font-weight: 500;
@@ -207,7 +285,7 @@ h1 {
 }
 .carousel-icon{
     font-size: 25px;
-    color: #de0f66;
+    color: #1a0cff;
 }
 .carousel-control-next, .carousel-control-prev{
     width: 7%;
@@ -222,10 +300,11 @@ h1 {
 }
 .Internship .card-img-top{
     object-fit: contain;
+    /* object-fit:inherit; */
 }
 
 .Internship .card:hover .card-title{
-color: #de0f66;
+color: #1a0cff;
 cursor: pointer;
 }
 .Internship .card-body{
@@ -238,12 +317,13 @@ cursor: pointer;
 }
 .Certifications .card-img-top{
     object-fit: contain;
+    /* object-fit:inherit; */
 }
 .Certifications .card:hover{
-    border: 5px solid #fb93be;
+    border: 5px solid #85a0ff;
 }
 .Certifications .card:hover .card-title{
-color: #de0f66;
+color: #1a0cff;
 cursor: pointer;
 }
 .Certifications .card-body{
@@ -323,7 +403,7 @@ cursor: pointer;
 }
 
 .Projects .card:hover .card-title,.Projects .card:hover .link{
-color: #de0f66;
+color: #1a0cff;
 cursor: pointer;
 }
 .fixed-top {
@@ -410,11 +490,18 @@ footer p{
     margin: 15px 0px;
 }
 .social-media-link:hover{
-    color: #de0f66;
+    color: #1a0cff;
         color: white;
 
 }
+/* .Internship .card-body{
+    display: flex;
+    align-items: center;
+}
 
+.Internship .info-text{
+   margin-left: 20px;
+} */
 @media (max-width: 440px){
     .intro-img{
         object-fit: contain;
